@@ -39,12 +39,13 @@
                 <li>
                     <a href="{{route('barrios')}}" title="Encontra a tu Escort clasificadas por Barrios">Por Barrios</a>
                 </li>
+                <!-- 
                 <li>
                     <a href="https://www.sierrascalientes.com/escorts/buscar" title="Buscador de escorts y acompañantes en Sierras Calientes">Buscador</a>
                 </li>
                 <li>
                     <a href="https://www.sierrascalientes.com/escorts-publicar.html" target="_self" title="Publica tu Anuncio en nuestro Portal Sierras Calientes hay categorías especificas para el servicio que ofrezcas">Publicar</a>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>
