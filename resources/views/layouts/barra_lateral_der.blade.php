@@ -1,1 +1,1 @@
-<div style="with:100%;margin-top:10%"> <img src="{{asset('images/banner.png')}}"> </div>
+<div style="with:100%;margin-top:10%; text-align:center"> <img src="{{asset('images/banner.png')}}"> </div>

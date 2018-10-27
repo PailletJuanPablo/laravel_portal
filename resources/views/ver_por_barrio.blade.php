@@ -8,7 +8,7 @@
                 {{$barrio->nombre}}
             </div>
        @foreach ($barrio->escorts as $escort)
-       <div class="col-md-2 escortCard">
+       <div class="col-md-2 col-sm-6 escortCard">
            <a href="{{route('escort', ['id' => $escort->id ])}}"> <div class="imgContainer">
             <img src="{{asset($escort->imagen_principal)}}"> </a> 
         </div>
