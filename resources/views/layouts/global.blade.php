@@ -15,8 +15,9 @@
   <body>
     <div class="container">
       <div class="container_inner"> 
+          <a href="{{route('inicio')}}" >
       <img style="width:100%"src="{{asset('images/portada.png')}}">
-
+          </a>
       <div class="row"> 
 <div class="col-md-2 ">
   @component('layouts.barra_lateral_izq')
