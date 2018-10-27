@@ -1,0 +1,210 @@
+body{
+    background:black;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container_inner{
+    background:#572b5c;
+    padding:0;
+}
+
+.siderbarIzq {
+    padding-right: 0px;
+}
+
+div .nav-title{
+    width: 100%;
+    padding-left: 7px;
+
+    display: block;
+    height: 31px;
+    border: 1px solid #D1D1D1;
+    background: url('https://www.sierrascalientes.com/theme/Sierrasr/css/images/categorias.jpg') left top repeat-x;
+}
+
+div .nav-content ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-content ul li {
+    width:100%;
+    display: block;
+    height: 30px;
+    background-color: #744277;
+    border-top: 1px solid #8e5c91;
+    border-bottom: 1px solid #602e63;
+    padding-left: 25px;
+    padding-top: 4px;
+}
+
+.nav-content ul li a {
+    color:white;
+}
+
+
+#sidebar-left {
+    margin-left: 0;
+    width:100%;
+}
+
+#sidebar-left .nav-content {
+    width:100%;
+}
+
+.escortCard {
+    padding: 2px;
+    margin:0;
+    color:white;
+    text-align: center;
+    font-weight: 500;
+    border: 1px solid #d049dc;
+}
+.escortCard .imgContainer {
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+}
+.imgContainer img {
+    height: 200px;
+    width: auto;
+ }
+
+.escortCard .titleContainer {
+    width:100%;
+    background:#825286;
+    padding: 5px;
+    font-weight: 500
+}
+
+.escortCard .numberContainer{
+    font-weight: lighter;
+    width:100%;
+
+}
+
+.homeTitle_novedades{
+    width: 100%;
+    text-align: center;
+    padding:2%;
+    color:white;
+    font-size: 1.3em;
+    background:#094117!important;
+
+}
+
+.homeTitle_destacadas{
+    width: 100%;
+    text-align: center;
+    padding:2%;
+    color:white;
+    font-size: 1.3em;
+    background:#510458!important;
+}
+
+
+.detailTitle{
+    width: 100%;
+    text-align: center;
+    padding:2%;
+    color:white;
+    font-size: 1.3em;
+    background:#8e5c91!important;
+}
+
+.detail-item{
+    color: #d8a9dd;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 15px;
+    display: table-cell;
+    width: 60px;
+    vertical-align: middle;
+}
+
+.detail-value{
+    font-size: 11px;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.escorts-detail-data {
+    margin-top: 30px;
+    display: table;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.escort-details-data-1{
+    margin-top:20px;
+    padding:2%;
+}
+
+.escort-details-data-2{
+    margin-top:20px;
+    padding:15%;
+    color:white;
+}
+
+
+.escort-details-data-2 .numero {
+   padding-left: 10px;
+   font-size: 20px;
+}
+
+.dataul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.detailContainer{
+    text-align: center;
+    width:100%;
+    color:white;
+}
+
+.detailContainer .description {
+    font-size: 15px;
+}
+
+.homeTitle_seccion{
+    width: 100%;
+    text-align: center;
+    padding:2%;
+    color:white;
+    font-size: 1.3em;
+    background:#510458!important;
+    text-transform: uppercase;
+}
+
+.barriosContainer {
+    width: 100%;
+    text-align: center;
+    color:white;
+}
+
+.barriosContainer a {
+    color:white;
+    padding-top: 2%;
+}
+
+.barriosContainer h3 {
+    padding-top: 2%;
+}
+
+
+.homeTitle_novedades{
+    width: 100%;
+    text-align: center;
+    padding:2%;
+    color:white;
+    font-size: 1.3em;
+    background:#140331!important;
+}
