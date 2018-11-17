@@ -13,7 +13,7 @@
 
 Route::get('/', 'HomeController@terminos');
 Route::get("inicio", "HomeController@index")->name('inicio');
-Route::get('/escort/{id?}', 'HomeController@verEscort')->name("escort");
+Route::get('/escort/{slug?}', 'HomeController@verEscort')->name("escort");
 Route::get('/seccion/{query}', 'HomeController@verPorCategoria')->name('seccion');
 Route::get('/genero/{genero}', 'HomeController@verPorGenero')->name('genero');
 Route::get('/barrios', 'HomeController@verBarrios')->name('barrios');

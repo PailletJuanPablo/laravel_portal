@@ -19,9 +19,9 @@ class HomeController extends Controller
         return view("terminos");
     }
 
-    public function verEscort($id)
+    public function verEscort($slug)
     {
-        $escort = Escort::find($id);
+        $escort = Escort::where("slug", $slug)->first();
         return view('detalle', ["escort" => $escort]);
     }
 

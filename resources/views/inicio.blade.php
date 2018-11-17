@@ -8,7 +8,7 @@
     </div>
     @foreach ($destacadas as $escort)
     <div class="col-md-2 col-sm-6 escortCard">
-        <a href="{{route('escort', ['id' => $escort->id ])}}">
+        <a href="{{route('escort', ['id' => $escort->slug ])}}">
             <div class="imgContainer">
                 <img src="{{$escort->imagen_principal}}"> </a>
         </div>
@@ -24,7 +24,7 @@
     </div>
     @foreach ($escorts as $escort)
     <div class="col-md-2 col-sm-6 escortCard">
-        <a href="{{route('escort', ['id' => $escort->id ])}}">
+        <a href="{{route('escort', ['id' => $escort->slug ])}}">
             <div class="imgContainer">
                 <img src="{{$escort->imagen_principal}}"> </a>
         </div>

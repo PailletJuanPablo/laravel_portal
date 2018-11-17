@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="container-fluid detailTitle">
-            {{$escort->nombre}} 
+        {{$escort->nombre}}
     </div>
 </div>
 
@@ -31,7 +31,7 @@
                 </li>
                 <li>
                     <span class="detail-item">Zona:</span>
-                    <span class="detail-value">{{$escort->zona}}</span>
+                    <span class="detail-value">{{$escort->zona->nombre}}</span>
                 </li>
             </ul>
         </div>
@@ -45,14 +45,14 @@
 </div>
 
 <div class="row">
-<div class="detailContainer">
-    <p style="width:100%"> 
-        <img style="max-width: 100%" src="{{asset($escort->imagen_principal)}}">
-    </p>
+    <div class="detailContainer">
+        <p style="width:100%">
+            <img style="max-width: 100%" src="{{asset($escort->imagen_principal)}}">
+        </p>
 
-    <h3> Descripción </h3>
+        <h3> Descripción </h3>
 
-    <p class="description"> 
+        <p class="description">
             {!! $escort->descripcion !!} </p>
     </div>
 </div>
